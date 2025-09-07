@@ -16,7 +16,7 @@ export const TaskForm = () => {
         className={css.field}
         type="text"
         name="text"
-        placeholder="Enter task text..."
+        placeholder="Enter task text....."
       />
       <Button type="submit">Add task</Button>
     </form>
