@@ -1,0 +1,12 @@
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--text-dim);
+  border: 1px solid var(--surface-700);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.listItem + .listItem {
+  border-top: 1px solid var(--surface-700);
+}

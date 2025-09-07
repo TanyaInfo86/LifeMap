@@ -1,0 +1,45 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  font: inherit;
+  cursor: pointer;
+  background: var(--primary-600);
+  color: var(--on-primary);
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s,
+    transform 0.05s, box-shadow 0.2s;
+}
+.btn:hover {
+  background: var(--primary-500);
+  box-shadow: 0 8px 18px rgba(124, 58, 237, 0.28);
+}
+.btn:active {
+  background: var(--primary-700);
+  transform: translateY(1px) scale(0.99);
+}
+.btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--ring-primary);
+}
+.btn.isSelected {
+  background: var(--primary-700);
+  color: var(--on-primary);
+}
+/* контрастна */
+.btn--accent {
+  background: var(--accent-500);
+  color: var(--on-accent);
+}
+.btn--accent:hover {
+  filter: brightness(1.06);
+}
+.btn--accent:active {
+  filter: brightness(0.94);
+}
+.btn--accent:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--ring-accent);
+}

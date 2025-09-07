@@ -1,0 +1,16 @@
+.appBar {
+  display: flex;
+  justify-content: space-between;
+  background: var(--surface-800);
+  border-bottom: 1px solid var(--surface-700);
+  padding: 12px 16px;
+}
+.appBarSection {
+  display: grid;
+  gap: 4px;
+}
+.appBarTitle {
+  margin: 0;
+  font-size: 16px;
+  color: var(--text-100);
+}
